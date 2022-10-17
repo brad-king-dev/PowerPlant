@@ -29,7 +29,8 @@ namespace PowerPlant.Core.TimeSimulation
         /// <param name="powerDaysOff">The days of the week the power plant should not operate</param>
         /// <returns></returns>
         public IEnumerable<Widget> SimulateProductionForDays(int forDays, 
-            IEnumerable<DayOfWeek> manufacturingDaysOff, IEnumerable<DayOfWeek> powerDaysOff)
+            IEnumerable<DayOfWeek> manufacturingDaysOff, 
+            IEnumerable<DayOfWeek> powerDaysOff)
         {
             DateTime startOfToday = GetTodaysDateAtMidnight();
 
