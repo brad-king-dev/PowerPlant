@@ -19,5 +19,5 @@ Using state of the art technology, we can create widgets from electricity. Our f
  - PowerPlant.Core.Power.Exceptions.OutOfPowerException is an example of creating a custom exception
  - Various examples of null coalescing and defensive guarding against null values
  -- Ex: !powerDaysOff?.Contains(day.DayOfWeek) ?? false
- - WidgetCollectionCOnsoleReporter.WriteQualitySummary contains an example of using a LINQ group by statement and transforming the result into a flattened summary model.
+ - WidgetCollectionConsoleReporter.WriteQualitySummary contains an example of using a LINQ group by statement and transforming the result into a flattened summary model.
 
