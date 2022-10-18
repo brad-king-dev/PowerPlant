@@ -21,7 +21,7 @@ namespace PowerPlant.Core.Manufacturing.Extensions
         {
             var randomItemToSelect = _random.Next(1, 100);
 
-            //Aproximately a 1% chance of terrible quality.
+            //Aproximately a 2% chance of terrible quality.
             if (randomItemToSelect <= 2)
                 return Quality.Terrible;
 
