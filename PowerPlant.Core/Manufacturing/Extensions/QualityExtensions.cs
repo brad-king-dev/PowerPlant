@@ -29,7 +29,7 @@ namespace PowerPlant.Core.Manufacturing.Extensions
             if (randomItemToSelect > 2 && randomItemToSelect <=5)
                 return Quality.Bad;
 
-            //Approximately 40% chance of fair quality
+            //Approximately 50% chance of fair quality
             if (randomItemToSelect > 5 && randomItemToSelect <= 55)
                 return Quality.Fair;
 
